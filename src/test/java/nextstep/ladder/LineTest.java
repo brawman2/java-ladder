@@ -20,4 +20,9 @@ public class LineTest {
 			new Line(1);
 		}).isExactlyInstanceOf(IllegalArgumentException.class);
 	}
+	
+	// 생성과 실행 테스트
+	// 1. 연속된 연결이 없는지 확인
+	// 2. 참가자와 동일한 위치의 블록으로 진입
+	// 임의로 라인 만들고 참가자의 위치 임의로 삽입, 의도된 결과 나오는지
 }
